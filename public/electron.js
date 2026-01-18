@@ -9,6 +9,7 @@ function createMainWindow(){
         height: 400,
         frame:false,
         titleBarStyle: 'hidden',
+        movable: true,
         webPreferences: {
             nodeIntegration: false,
             contextIsolation: true,
